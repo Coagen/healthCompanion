@@ -1,0 +1,44 @@
+.wrapper {
+  margin: 1rem auto;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.select {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1.6rem;
+}
+
+.button {
+  padding: 0.5rem 1.2rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: #0059c1;
+}
+
+.textarea {
+  width: 100%;
+  height: 180px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  resize: none;
+  font-size: 1.6rem;
+  background-color: #f9f9f9;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}

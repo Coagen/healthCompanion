@@ -1,0 +1,30 @@
+.uploadSection {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.uploadSection h2 {
+  font-size: 1.8rem;
+  color: #2b7a78;
+  margin-bottom: 1.5rem;
+}
+.fileInput {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.analyzeBtn {
+  background-color: rgb(67, 51, 90);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.analyzeBtn:hover {
+  background-color: rgba(67, 51, 90, 0.89);
+}

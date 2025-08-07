@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+}
+
+.logo {
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #2b7a78;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.button,
+.login {
+  background-color: rgb(67, 51, 90);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.button:hover,
+.login:hover {
+  background-color: rgba(67, 51, 90, 0.89);
+}
+
+/*  */
+
+.applicationbutton {
+  padding: 11px;
+  background-color: rgb(67, 51, 90);
+  color: white;
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.applicationbutton:hover {
+  background-color: rgba(67, 51, 90, 0.89);
+}

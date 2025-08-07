@@ -1,0 +1,25 @@
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #def2f1;
+}
+
+.text {
+  margin-bottom: 2rem;
+}
+
+.text h1 {
+  font-size: 4.5rem;
+  color: #17252a;
+}
+
+.text p {
+  font-size: 1.8rem;
+  color: #3aafa9;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
